@@ -14,7 +14,7 @@ const handleCreate = async () => {
     return Alert.alert("Error", "Please select a category");
 
   setIsLoading(true);
-
+  // validation re initialized
   try {
     // Format the amount (negative for expenses, positive for income)
     const formattedAmount = isExpense
